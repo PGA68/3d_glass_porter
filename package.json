@@ -1,0 +1,29 @@
+{
+  "name"	: "3d_glass_porter",
+  "version"	: "0.0.0",
+  "description"	: "3d decision 'room' - base conductor",
+  "author"	: "PGA68 <agdars@gmail.com>",
+  "license"	: "MIT",
+  "main"	: "./app/threed_glass_porter.html",
+  "node-main"	: "./app/threed_glass_porter.js",
+  "appconfig"	: "./app/config.json",
+  "webkit"	: {
+  	"plugin"	: true
+	},
+	"window"	: {
+		"title" : "GP_room",
+        "min_height": 300,
+        "min_width": 480,
+        "height": 800,
+        "width": 600,
+        "position": "mouse",
+        "toolbar": true,
+        "always-on-top": false,
+        "fulscreen": true,
+        "frame": true,
+        "kiosk": false		
+	},
+	"scripts"	: {
+    "test"	: "echo \"Error: no test specified\" && exit 1"
+  }
+}
