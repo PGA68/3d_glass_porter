@@ -38,16 +38,25 @@ jspm_packages
 
 # all NW environment
 /lib
+/pnacl
 /locales
+resources.pak
+nw_100_percent.pak
+nw_200_percent.pak
+nacl_helper
+nacl_irt_x86_64.nexe
+nacl_helper_bootstrap
 nw_material_200_percent.pak
 nw_material_100_percent.pak
-nw_200_percent.pak
-nw_100_percent.pak
-nw
-natives_blob.bin
-icudtl.dat
-resources.pak
+minidump_stackwalk
 snapshot_blob.bin
+natives_blob.bin
+credits.html
+chromedriver
+icudtl.dat
+payload
+nwjc
+nw
 
 # notes
 this.txt
